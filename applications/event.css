@@ -1,0 +1,69 @@
+:root{
+    --orange:#ffa500;
+  }
+  
+  *{
+    font-family: 'Nunito', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    outline: none; border:none;
+    text-decoration: none;
+    transition: all .2s linear;
+  }
+  
+  .event{
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+    border-radius: .5rem;
+    background-color: var(--orange);
+    width: 72%;
+    height: 70vh;
+    position: relative;
+    right: -12%;
+    top: 100px;
+  }
+  .event h1{
+      color: #000;
+      font-weight: bold;
+      text-align: center;
+      padding: 20px;
+  }
+   .event h3{
+    color: #333;
+    font-size: 20px;
+    margin: 17px 24px;
+}
+
+  .event p{
+      color: #fff;
+      padding: 0px 31px;
+      margin: 37px 18px;
+      font-size: 16px;
+      font-weight: 500;
+      
+  }
+  form{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.2rem;
+    position: relative;
+    right: 10%;
+    padding: 10px;
+  }
+input.btn{
+    display: inline-block;
+    margin-top: 0rem;
+    background: #333;
+    color: #fff;
+    padding: -0.3rem 2rem;
+    border: 0.2rem solid var(--orange);
+    cursor: pointer;
+    font-size: 0.9rem;
+    width: 9%;
+}
+.btn:hover{
+    background:#f7f7f7;
+    color:var(--orange);
+  }

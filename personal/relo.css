@@ -1,0 +1,33 @@
+
+:root{
+    --orange:#ffa500;
+  }
+  .services{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      margin: 100px auto;
+      background-color: var(--orange);
+      width: 50%;
+  }
+  .services h3 {
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+    top: 13%;
+}
+.box-container{
+    margin: 83px 0px;
+    padding: 27px 0px;
+}
+.input-container {
+    font-size: 22px;
+}
+textarea {
+    background-color: #333;
+    color: #fff;
+}
+label {
+    font-size: 19px;
+}

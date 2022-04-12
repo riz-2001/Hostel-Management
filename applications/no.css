@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+:root{
+  --orange:#ffa500;
+}
+
+*{
+  font-family: 'Nunito', sans-serif;
+  margin:0; padding:0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  outline: none; border:none;
+  text-decoration: none;
+  transition: all .2s linear;
+}
+  form .pls{
+    text-align: center;
+    position: relative;
+    top: 10px;
+    z-index: 1;
+    font-size: 34px;
+}
+
+form{
+
+    flex:1 1 50rem;
+    padding:3rem;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+    border-radius: .5rem;
+    background-color: var(--orange);
+    width: 50%;
+    height: 50%;
+    position: relative;
+    right: -25%;
+    top: 20px;
+}
+form .text{
+    color: #333;
+    position: relative;
+    top: 45px;
+}
+form input{
+    width:71%;
+    margin:1rem 0;
+    padding:1rem;
+    font-size: 1.7rem;
+    color:#333;
+    background:#f7f7f7;
+    text-transform: none;
+    font-size: 13px;
+    padding: 5px 23px;
+    position: relative;
+    top: 37px;
+    
+}
+form textarea{
+    height: 11rem;
+    resize: none;
+    width: 89%;
+    background: #f7f7f7;
+    position: relative;
+    top: 57px;
+}
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    background: #333;
+    color: #fff;
+    padding: -0.3rem 2rem;
+    border: 0.2rem solid var(--orange);
+    cursor: pointer;
+    font-size: 1.3rem;
+    width: 24%;
+}
+
+  
+  .btn:hover{
+    background:#f7f7f7;
+    color:var(--orange);
+  }
+
+
+
+
+
+  
